@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
   spec.source_files = 'NCKFoundation/Classes/*.{h,m}', 'NCKFoundation/ThirdParty/*.{h}'
   spec.dependency   'AFNetworking', '~> 3.1.0'
-  spec.vendored_libraries  = 'NCKFoundation/ThirdParty/*.{a}'
+  spec.vendored_libraries  = 'NCKFoundation/ThirdParty/libWeChatSDK.a'
   spec.frameworks = 'SystemConfiguration','CoreGraphics','CoreTelephony','Security','CoreLocation','JavaScriptCore'
   spec.libraries  = 'iconv','sqlite3','stdc++','z'
   spec.subspec 'NCKSub' do |cs|
