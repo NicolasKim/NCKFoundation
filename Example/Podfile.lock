@@ -14,10 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - NCKFoundation (1.0):
+  - NCKFoundation (2.0):
     - AFNetworking (~> 3.1.0)
-    - NCKFoundation/NCKSub (= 1.0)
-  - NCKFoundation/NCKSub (1.0):
+    - NCKFoundation/NCKSub (= 2.0)
+  - NCKFoundation/NCKSub (2.0):
     - AFNetworking (~> 3.1.0)
 
 DEPENDENCIES:
@@ -29,7 +29,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  NCKFoundation: 0e34f3660e65d215021421310c368175ec18c727
+  NCKFoundation: 03e26783f6e1df153c9354e657b346c234309aef
 
 PODFILE CHECKSUM: 5a96fd898a35f64b9daa085ddb06cf053c0de709
 
