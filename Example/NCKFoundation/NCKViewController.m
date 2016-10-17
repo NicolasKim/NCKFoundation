@@ -8,6 +8,8 @@
 
 #import "NCKViewController.h"
 #import "NCKRootObject.h"
+#import "NCKChild.h"
+#import "WXApi.h"
 @interface NCKViewController ()
 
 @end
